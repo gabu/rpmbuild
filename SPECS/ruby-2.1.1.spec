@@ -5,10 +5,10 @@
 #
 # sudo yum -y install readline libyaml libyaml-devel readline-devel ncurses ncurses-devel gdbm gdbm-devel glibc-devel tcl-devel gcc unzip openssl-devel db4-devel byacc make libffi-devel
 #
-# wget https://raw.github.com/nmilford/rpm-ruby/master/ruby.spec -O ~/rpmbuild/SPECS/ruby.spec
+# wget --no-check-certificate https://raw.githubusercontent.com/gabu/rpmbuild/master/SPECS/ruby-2.1.1.spec -O ~/rpmbuild/SPECS/ruby-2.1.1.spec
 # wget http://cache.ruby-lang.org/pub/ruby/2.1/ruby-%{rubyver}.tar.gz -O ~/rpmbuild/SOURCES/ruby-2.1.1.tar.gz
 #
-# QA_RPATHS=$[ 0x0001|0x0010 ] rpmbuild -bb ~/rpmbuild/SPECS/ruby.spec
+# QA_RPATHS=$[ 0x0001|0x0010 ] rpmbuild -bb ~/rpmbuild/SPECS/ruby-2.1.1.spec
 
 %define rubyver         2.1.1
 #%define rubyminorver    p353
