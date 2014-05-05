@@ -8,7 +8,7 @@ Version:        2.2.1
 Release:        1%{?dist}
 License:        GPLv2+
 URL:            http://ffmpeg.org/
-Source0:        http://ffmpeg.org/releases/ffmpeg-%{version}.tar.bz2
+Source0:        http://ffmpeg.org/releases/ffmpeg-%{version}.tar.gz
 
 %description
 FFmpeg is a complete and free Internet live audio and video
