@@ -72,10 +72,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-, root, root)
-%{_bindir}
-%{_includedir}
-%{_datadir}
-%{_libdir}
+%{_bindir}/*
+%{_includedir}/*
+%{_datadir}/*
+%{_libdir}/*
 
 %changelog
 * Fri Apr 25 2014 Spike Grobstein <sgrobstein@shutterstock.com> - 2.1.1
